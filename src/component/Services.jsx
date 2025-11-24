@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const PopularSection = () => {
-
+const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('/public/sevices.json')
@@ -10,10 +9,6 @@ const PopularSection = () => {
             .catch(err => console.log(err))
 
     }, [])
-    console.log(services);
-
-
-
     return (
         <div className='mt-8 px-[145px]'>
             <div>
@@ -21,7 +16,7 @@ const PopularSection = () => {
             </div>
             <div className=' grid grid-cols-1 lg:grid-cols-3  mt-7 mb-6'>
                 {
-                    services.slice(0, 6).map(service => <div className="card bg-base-100 w-96 shadow-sm mt-8 rounded-lg">
+                    services.map(service => <div className="card bg-base-100 w-96 shadow-sm mt-8 rounded-lg">
                         <figure>
                             <img className='w-full h-[300px] object-cover'
                                 src={service.coverPhoto
@@ -50,4 +45,4 @@ const PopularSection = () => {
     );
 };
 
-export default PopularSection;
+export default Services;
