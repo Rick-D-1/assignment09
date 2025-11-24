@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Player Unknowns Battle Ground: PUBG",
-        "coverPhoto": "https://ibb.co.com/dwj5XfCv",
+        "coverPhoto": "https://i.ibb.co.com/sdbVcgx4/Pubg.jpg",
         "category": "FPS",
         "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
         "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "title": "Call of Duty Mobile",
-        "coverPhoto": "https://ibb.co.com/dw8Zn1NY",
+        "coverPhoto": "https://i.ibb.co.com/N6FJGfdC/COD.jpg",
         "category": "FPS",
         "downloadLink": "https://www.callofduty.com/mobile",
         "description": "COD Mobile brings iconic maps, weapons, and multiplayer modes to mobile with high-speed action.",
@@ -22,7 +22,7 @@
     {
         "id": "3",
         "title": "Free Fire",
-        "coverPhoto": "https://ibb.co.com/bMM50bBL",
+        "coverPhoto": "https://i.ibb.co.com/Ldkf762d/FF.jpg",
         "category": "Battle Royale",
         "downloadLink": "https://ff.garena.com/",
         "description": "A quick-paced survival shooter where 50 players battle to be the last standing.",
@@ -32,7 +32,7 @@
     {
         "id": "4",
         "title": "Clash of Clans",
-        "coverPhoto": "https://ibb.co.com/wNVmcTwM",
+        "coverPhoto": "https://i.ibb.co.com/5xvbtxKV/Coc.jpg",
         "category": "Strategy",
         "downloadLink": "https://supercell.com/en/games/clashofclans/",
         "description": "Build your village, train troops, and battle millions of players worldwide.",
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "title": "Clash Royale",
-        "coverPhoto": "https://ibb.co.com/RpW8JPkj",
+        "coverPhoto": "https://i.ibb.co.com/4n3x8rDW/CR.jpg",
         "category": "Strategy",
         "downloadLink": "https://supercell.com/en/games/clashroyale/",
         "description": "A real-time multiplayer game with cards, strategy, and exciting battles.",
@@ -52,7 +52,7 @@
     {
         "id": "6",
         "title": "Genshin Impact",
-        "coverPhoto": "https://ibb.co.com/gZ4cwSYg",
+        "coverPhoto": "https://i.ibb.co.com/KxbVLF1f/GI.jpg",
         "category": "RPG",
         "downloadLink": "https://genshin.hoyoverse.com/",
         "description": "Explore a vast fantasy open world full of elemental magic and adventure.",
@@ -62,7 +62,7 @@
     {
         "id": "7",
         "title": "Mobile Legends: Bang Bang",
-        "coverPhoto": "https://ibb.co.com/ZR6YPk1d",
+        "coverPhoto": "https://i.ibb.co.com/TBwjMG85/ML.jpg",
         "category": "MOBA",
         "downloadLink": "https://mobilelegends.com/",
         "description": "5v5 MOBA battles with heroes, teamwork, and competitive gameplay.",
@@ -72,7 +72,7 @@
     {
         "id": "8",
         "title": "Apex Legends Mobile",
-        "coverPhoto": "https://ibb.co.com/xKtJ88yK",
+        "coverPhoto": "https://i.ibb.co.com/215TRyJ3/AL.jpg",
         "category": "Battle Royale",
         "downloadLink": "https://www.ea.com/games/apex-legends",
         "description": "Team-based battle royale with legends, abilities, and strategy.",
@@ -82,7 +82,7 @@
     {
         "id": "9",
         "title": "Among Us",
-        "coverPhoto": "https://ibb.co.com/7tVGHd0B",
+        "coverPhoto": "https://i.ibb.co.com/fGVbgchs/AU.jpg",
         "category": "Party",
         "downloadLink": "https://www.innersloth.com/gameAmongUs.php",
         "description": "A social deduction game where crewmates try to find the impostor.",
@@ -92,7 +92,7 @@
     {
         "id": "10",
         "title": "Minecraft",
-        "coverPhoto": "https://ibb.co.com/bj2m3ppz",
+        "coverPhoto": "https://i.ibb.co.com/X9RyFSh/MC.jpg",
         "category": "Sandbox",
         "downloadLink": "https://www.minecraft.net/",
         "description": "Create, explore, and survive in a blocky open world.",
@@ -102,7 +102,7 @@
     {
         "id": "11",
         "title": "Asphalt 9",
-        "coverPhoto": "https://ibb.co.com/TBJDkk66",
+        "coverPhoto": "https://i.ibb.co.com/ynDy6gGM/A8.jpg",
         "category": "Racing",
         "downloadLink": "https://www.gameloft.com/game/asphalt-9",
         "description": "High-speed racing with stunning graphics and nitro-filled action.",
@@ -112,7 +112,7 @@
     {
         "id": "12",
         "title": "FIFA Mobile",
-        "coverPhoto": "https://ibb.co.com/ns3F65KZ",
+        "coverPhoto": "https://i.ibb.co.com/qMMZJ7Mt/Fifa.jpg",
         "category": "Sports",
         "downloadLink": "https://www.ea.com/games/fifa/fifa-mobile",
         "description": "Build a dream football team and compete in realistic matches.",
