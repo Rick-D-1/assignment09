@@ -2,11 +2,13 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvieder';
+import { updateProfile } from 'firebase/auth';
+import auth from '../Firebase/firebase.config';
 
 
 
 const Register = () => {
-    const { registerWithEmailPassword } = useContext(AuthContext);
+    const { registerWithEmailPassword, setUser, user } = useContext(AuthContext);
 
     const handleSubmit = (e) => {
 
@@ -16,10 +18,34 @@ const Register = () => {
 
         const pass = e.target.password.value;
 
-        registerWithEmailPassword(email, pass);
+        const name = e.target.name.value;
+        const photourl = e.target.photourl.value;
+
+        registerWithEmailPassword(email, pass)
+            .then((userCredential) => {
+
+
+                updateProfile(auth.currentUser, {
+                    displayName: name, photoURL: photourl,
+                }).then(() => {
+
+                    setUser(userCredential.user)
+
+
+                }).catch((error) => {
+                    console.log(error);
+
+                });
+
+            })
+            .catch(err => {
+                console.log(err);
+
+            })
 
     }
 
+    console.log(user);
 
 
     return (
