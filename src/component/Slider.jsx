@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 
 const Slider = () => {
     return (
-        <div className=''>
+        <div className='z-0'>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide><img className='w-full h-[500px] object-cover' src={img1} alt="" /></SwiperSlide>
                 <SwiperSlide><img className='w-full h-[500px] object-cover' src={img2} alt="" /></SwiperSlide>

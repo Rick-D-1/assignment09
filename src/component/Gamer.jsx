@@ -39,6 +39,21 @@ const Gamer = () => {
                         <h2 className="card-title text-3xl">Join Now!</h2>
                         <p>In many online multiplayer games, you can join a friend's party or squad by typing specific commands into the chat box, such as /join [playername] or /invite [name]. The exact command varies by game, and you can usually find a list by typing /help or /allcommands.</p>
                         <div className="card-actions justify-end">
+                            <label className="input">
+                                <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <g
+                                        strokeLinejoin="round"
+                                        strokeLinecap="round"
+                                        strokeWidth="2.5"
+                                        fill="none"
+                                        stroke="black"
+                                    >
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.3-4.3"></path>
+                                    </g>
+                                </svg>
+                                <input className='text-black' type="search" required placeholder="Search" />
+                            </label>
                             <Link to={'/Services'}>
                                 <button className="btn">Explore Now</button></Link>
                         </div>
