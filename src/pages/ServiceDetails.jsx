@@ -19,7 +19,7 @@ const ServiceDetails = () => {
     useEffect(() => {
         const findResult = services.find(service => service.id == Myid);
 
-        setServiceDetails(findResult);
+        setServiceDetails(findResult)
 
         console.log(findResult);
     }, [Myid, services]);
