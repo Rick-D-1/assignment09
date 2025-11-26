@@ -35,9 +35,7 @@ const PopularSection = () => {
                                 <p className='font-bold'>Developer : <span className='text-green-600'>{service.developer}</span></p>
                                 <p className='font-bold'> Ratings : <span className='text-yellow-600 '>{service.ratings}</span></p>
                             </div>
-                            <div className=' mt-3 text-center h-7 text-lg font-bold rounded-lg text-white bg-blue-500'>
-                                <button >View Details</button>
-                            </div>
+
                         </div>
                     </div>)
                 }
